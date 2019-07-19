@@ -1,0 +1,99 @@
+
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+2019-07-19 15:27:27.575606+0100 account-opening[1936:249280] Using UIWebView
+2019-07-19 15:27:27.578088+0100 account-opening[1936:249280] [CDVTimer][handleopenurl] 0.144005ms
+2019-07-19 15:27:27.579648+0100 account-opening[1936:249280] [CDVTimer][intentandnavigationfilter] 1.484990ms
+2019-07-19 15:27:27.579768+0100 account-opening[1936:249280] [CDVTimer][gesturehandler] 0.076056ms
+2019-07-19 15:27:27.579793+0100 account-opening[1936:249280] [CDVTimer][TotalPluginStartup] 1.879096ms
+2019-07-19 15:27:28.391452+0100 account-opening[1936:249280] Resetting plugins due to page load.
+2019-07-19 15:27:28.945118+0100 account-opening[1936:249280] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2019-07-19 15:27:28.945210+0100 account-opening[1936:249280] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2019-07-19 15:27:28.945307+0100 account-opening[1936:249280] -[CDVCommandQueue executePending] [Line 142] FAILED pluginJSON = ["Device754859382","Device","getDeviceInfo",[]]
+2019-07-19 15:27:28.947661+0100 account-opening[1936:249280] CDVPlugin class CDVConnection (pluginName: NetworkStatus) does not exist.
+2019-07-19 15:27:28.947717+0100 account-opening[1936:249280] ERROR: Plugin 'NetworkStatus' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2019-07-19 15:27:28.947745+0100 account-opening[1936:249280] -[CDVCommandQueue executePending] [Line 142] FAILED pluginJSON = ["NetworkStatus754859383","NetworkStatus","getConnectionInfo",[]]
+2019-07-19 15:27:28.952053+0100 account-opening[1936:249280] Finished load of: file:///var/containers/Bundle/Application/BEFC488B-4C1F-4E95-BD49-96E7C6E30EBA/account-opening.app/www/index.html
+2019-07-19 15:27:39.021726+0100 account-opening[1936:249280] CDVPlugin class CDVLocation (pluginName: Geolocation) does not exist.
+2019-07-19 15:27:39.021793+0100 account-opening[1936:249280] ERROR: Plugin 'Geolocation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2019-07-19 15:27:39.021842+0100 account-opening[1936:249280] -[CDVCommandQueue executePending] [Line 142] FAILED pluginJSON = ["Geolocation754859384","Geolocation","getLocation",[false,0]]
+2019-07-19 15:27:39.247069+0100 account-opening[1936:249490] TIC SSL Trust Error [1:0x28087af40]: 3:0
+2019-07-19 15:27:39.305879+0100 account-opening[1936:249490] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.305933+0100 account-opening[1936:249490] Task <E404FD9C-E77C-408B-8997-5D349DAD1D6E>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.306014+0100 account-opening[1936:249494] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:39.369267+0100 account-opening[1936:249494] TIC SSL Trust Error [2:0x28087adc0]: 3:0
+2019-07-19 15:27:39.369886+0100 account-opening[1936:249494] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.369921+0100 account-opening[1936:249494] Task <D1F07405-0558-46C0-85AF-1315C82D50EE>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.370499+0100 account-opening[1936:249498] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:39.419424+0100 account-opening[1936:249494] TIC SSL Trust Error [3:0x280877cc0]: 3:0
+2019-07-19 15:27:39.420020+0100 account-opening[1936:249494] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.420057+0100 account-opening[1936:249494] Task <385B2E36-79AA-4689-B9D2-27E1043814A0>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.420592+0100 account-opening[1936:249498] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:39.471447+0100 account-opening[1936:249495] TIC SSL Trust Error [4:0x2808700c0]: 3:0
+2019-07-19 15:27:39.472025+0100 account-opening[1936:249495] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.472071+0100 account-opening[1936:249495] Task <06C8D547-1702-427E-A8D6-02E9612BD552>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.472469+0100 account-opening[1936:249498] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:39.531258+0100 account-opening[1936:249495] TIC SSL Trust Error [5:0x28087a880]: 3:0
+2019-07-19 15:27:39.531842+0100 account-opening[1936:249495] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.531872+0100 account-opening[1936:249495] Task <F29152C0-1BF3-4A56-8599-128653170CDB>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.532351+0100 account-opening[1936:249498] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:39.587737+0100 account-opening[1936:249498] TIC SSL Trust Error [6:0x28086c3c0]: 3:0
+2019-07-19 15:27:39.588393+0100 account-opening[1936:249498] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.588432+0100 account-opening[1936:249498] Task <746D72DD-11A2-4761-A729-5629E7C688D8>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.588983+0100 account-opening[1936:249490] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:39.683535+0100 account-opening[1936:249498] TIC SSL Trust Error [7:0x28086c3c0]: 3:0
+2019-07-19 15:27:39.684099+0100 account-opening[1936:249498] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.684133+0100 account-opening[1936:249498] Task <9F7D2E01-BDF9-480D-A88F-C1C7E4E938EA>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.684643+0100 account-opening[1936:249490] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:39.797181+0100 account-opening[1936:249490] TIC SSL Trust Error [8:0x28086c3c0]: 3:0
+2019-07-19 15:27:39.797794+0100 account-opening[1936:249490] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.797825+0100 account-opening[1936:249490] Task <F6E1FF07-32DE-462F-9FFE-AB52E874CB47>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.798201+0100 account-opening[1936:249498] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:39.965846+0100 account-opening[1936:249494] TIC SSL Trust Error [9:0x28086c3c0]: 3:0
+2019-07-19 15:27:39.966444+0100 account-opening[1936:249494] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:39.966488+0100 account-opening[1936:249494] Task <B3AF8149-19F3-4A8A-97EB-36FFF4F9BA3B>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:39.966718+0100 account-opening[1936:249495] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:40.216923+0100 account-opening[1936:249501] TIC SSL Trust Error [10:0x280868b40]: 3:0
+2019-07-19 15:27:40.217539+0100 account-opening[1936:249501] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:40.217577+0100 account-opening[1936:249501] Task <C233C80B-EC2E-49B9-BDF7-D9283AE26280>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:40.217793+0100 account-opening[1936:249494] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:40.615474+0100 account-opening[1936:249494] TIC SSL Trust Error [11:0x2808679c0]: 3:0
+2019-07-19 15:27:40.616059+0100 account-opening[1936:249494] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:40.616102+0100 account-opening[1936:249494] Task <051D5600-C89E-42B5-9919-D6F8ABF69BDE>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:40.616560+0100 account-opening[1936:249458] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:41.274739+0100 account-opening[1936:249465] TIC SSL Trust Error [12:0x28085f3c0]: 3:0
+2019-07-19 15:27:41.275489+0100 account-opening[1936:249465] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:41.275536+0100 account-opening[1936:249465] Task <AC8BE889-17ED-4C45-9112-9396A980E509>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:41.276061+0100 account-opening[1936:249469] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:42.360970+0100 account-opening[1936:249477] TIC SSL Trust Error [13:0x280852ac0]: 3:0
+2019-07-19 15:27:42.361652+0100 account-opening[1936:249477] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:42.361717+0100 account-opening[1936:249477] Task <1B63CD5E-FF13-4F1B-80C8-209631EE1A73>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:42.361908+0100 account-opening[1936:249457] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:44.159883+0100 account-opening[1936:249496] TIC SSL Trust Error [14:0x280866ac0]: 3:0
+2019-07-19 15:27:44.160532+0100 account-opening[1936:249496] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:44.160572+0100 account-opening[1936:249496] Task <AED193E7-F2B9-47D8-A5F0-9AF9B2C0E0BA>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:44.161097+0100 account-opening[1936:249457] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:47.089894+0100 account-opening[1936:249496] TIC SSL Trust Error [15:0x280871680]: 3:0
+2019-07-19 15:27:47.090456+0100 account-opening[1936:249496] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:47.090500+0100 account-opening[1936:249496] Task <7E829FA3-CC4A-4D71-B419-E64D3AD61F31>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:47.090975+0100 account-opening[1936:249477] NSURLConnection finished with error - code -1202
+2019-07-19 15:27:52.415353+0100 account-opening[1936:249496] TIC SSL Trust Error [16:0x280859140]: 3:0
+2019-07-19 15:27:52.415936+0100 account-opening[1936:249496] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:27:52.415979+0100 account-opening[1936:249496] Task <AD9B865D-37D3-438C-AC20-FD6254858DF6>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:27:52.416317+0100 account-opening[1936:249477] NSURLConnection finished with error - code -1202
+2019-07-19 15:28:00.943764+0100 account-opening[1936:249499] TIC SSL Trust Error [17:0x280853e40]: 3:0
+2019-07-19 15:28:00.944360+0100 account-opening[1936:249499] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:28:00.944419+0100 account-opening[1936:249499] Task <9CDFABF1-F2AF-444C-A0E5-62DC0CD99B5F>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:28:00.944717+0100 account-opening[1936:249496] NSURLConnection finished with error - code -1202
+2019-07-19 15:28:04.059125+0100 account-opening[1936:249500] [BoringSSL] nw_protocol_boringssl_error(1584) [C18.1:2][0x109d01c10] Lower protocol stack error: 53
+2019-07-19 15:28:04.059845+0100 account-opening[1936:249500] TIC TCP Conn Failed [18:0x28085d380]: 1:53 Err(53)
+2019-07-19 15:28:04.063724+0100 account-opening[1936:249500] Task <92F84450-8F05-4A05-86C1-12DBD7774862>.<0> HTTP load failed (error code: 53 [1:53])
+2019-07-19 15:28:04.065629+0100 account-opening[1936:249477] NSURLConnection finished with error - code 53
+2019-07-19 15:28:17.757329+0100 account-opening[1936:249502] TIC SSL Trust Error [19:0x280874e40]: 3:0
+2019-07-19 15:28:17.757981+0100 account-opening[1936:249502] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9813)
+2019-07-19 15:28:17.758023+0100 account-opening[1936:249502] Task <DD2F8B9F-02C3-47F0-9DD0-581C4C0B8722>.<0> HTTP load failed (error code: -1202 [3:-9813])
+2019-07-19 15:28:17.758690+0100 account-opening[1936:249502] NSURLConnection finished with error - code -1202
